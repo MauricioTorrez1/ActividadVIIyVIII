@@ -1,0 +1,64 @@
+# --- Carpetas de Simulación y Ejecución (LAS MÁS PESADAS) ---
+############################################################
+.Xil/
+.cache/
+.hw/
+.runs/
+.sim/
+*.runs/
+*.sim/
+
+# --- Archivos de Proyecto de Vivado ---
+######################################
+*.xpr
+*.xpr.orig
+*.xpr.user
+*.xpr.lock
+*.vdi
+*.vdi.lock
+*.str
+*.aps
+
+# --- Productos de Build (Binarios y Reportes) ---
+#################################################
+*.bit
+*.bin
+*.ltx
+*.sysdef
+*.html
+*.xml
+*.rpt
+
+# --- Logs y Archivos Temporales ---
+##################################
+*.log
+*.jou
+webtalk*.jou
+webtalk*.log
+webtalk*.tcl
+xelab.log
+xelab.pb
+xsim.dir/
+xsim.log
+xsim.pb
+
+# --- Carpetas de IP y BD generadas ---
+###################################
+*_ip.zip
+*_user_files/
+.ip_user_files/
+hdl_dependencies/
+ip_catalog/
+*.srcs/sources_1/bd/*/hw_handoff/
+*.srcs/sources_1/bd/*/ipshared/
+*.srcs/sources_1/bd/*/synth/
+*.srcs/sources_1/bd/*/sim/
+
+# --- Archivos de Configuración de Sim ---
+########################################
+*_behav.wcfg
+*_synth.wcfg
+
+# --- Archivos de Windows ---
+###########################
+Thumbs.db
